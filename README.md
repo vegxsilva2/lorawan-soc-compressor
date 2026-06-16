@@ -8,7 +8,7 @@ Durante un ataque DDoS masivo, los enlaces de fibra habituales quedan saturados 
 * **El Problema:** El ancho de banda en LoRaWAN es extremadamente minúsculo.
 * **La Restricción:** Al otro lado de la línea hay un analista humano, por lo que no se pueden emplear algoritmos de compresión estándar (como ZIP o GZIP). El mensaje resultante debe ser **interpretable directamente por una persona**.
 
-## 🛠️ Mi Solución (`prueba-2-omniasec.py`)
+## 🛠️ Solución
 Desarrollé una función llamada `comprimir_mensaje(texto)` basada en **estrategias de compresión lingüística y normalización semántica** aplicadas al contexto de la ciberseguridad.
 
 La lógica del script procesa el lenguaje natural a través del siguiente pipeline:
